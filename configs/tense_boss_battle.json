@@ -1,0 +1,44 @@
+{
+  "composition": {
+    "bpm": 150,
+    "time_signature": "4/4",
+    "duration_bars": 32,
+    "key": "E",
+    "scale": "phrygian",
+    "style": "cinematic_industrial",
+    "mood": "aggressive"
+  },
+  "layers": {
+    "layers": [
+      {
+        "name": "distorted_bass",
+        "instrument": "bass",
+        "pattern": "steady",
+        "volume": 0.9,
+        "octave": 2,
+        "note_range": [20, 40]
+      },
+      {
+        "name": "rapid_lead",
+        "instrument": "synth",
+        "pattern": "random",
+        "volume": 0.8,
+        "octave": 4,
+        "note_range": [48, 72]
+      },
+      {
+        "name": "orchestral_hits",
+        "instrument": "strings",
+        "pattern": "wave",
+        "volume": 0.7,
+        "octave": 5,
+        "note_range": [60, 84]
+      }
+    ]
+  },
+  "features": {
+    "enable_multi_stream": true,
+    "num_streams": 4,
+    "enable_pause_resume": true
+  }
+}
